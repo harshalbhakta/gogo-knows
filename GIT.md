@@ -1,5 +1,6 @@
-Feature branch workflow
-----
+##[![Build Status](https://s3.amazonaws.com/gogo-knows/git-banner.png)](http://git-scm.com/)
+
+### Feature branch workflow
 ```ruby
     
 # Checkout a new branch for the new feature
