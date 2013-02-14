@@ -1,4 +1,4 @@
-##[![Build Status](https://s3.amazonaws.com/gogo-knows/rails-banner.png)](http://rubyonrails.org/)
+##![Ruby on Rails](https://s3.amazonaws.com/gogo-knows/rails-banner.png)
 
 ### Rake task to drop, create, migrate & seed db in development mode.
 ```ruby

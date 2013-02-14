@@ -1,4 +1,4 @@
-##[![Build Status](https://s3.amazonaws.com/gogo-knows/heroku-banner.png)](http://heroku.com/)
+##![Heroku](https://s3.amazonaws.com/gogo-knows/heroku-banner.png)
 
 ### Check logs
 ----

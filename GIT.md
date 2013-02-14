@@ -1,4 +1,4 @@
-##[![Build Status](https://s3.amazonaws.com/gogo-knows/git-banner.png)](http://git-scm.com/)
+##![Git](https://s3.amazonaws.com/gogo-knows/git-banner.png)
 
 ### Feature branch workflow
 ```ruby
