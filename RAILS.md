@@ -1,5 +1,6 @@
-Rake task to drop, create, migrate & seed db in development mode.
-----
+##[![Build Status](https://s3.amazonaws.com/gogo-knows/rails-banner.png)](http://rubyonrails.org/)
+
+### Rake task to drop, create, migrate & seed db in development mode.
 ```ruby
 
 # Place below code snippet in the file /lib/tasks/db.rake
