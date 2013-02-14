@@ -1,4 +1,6 @@
-Check logs
+##[![Build Status](https://s3.amazonaws.com/gogo-knows/heroku-banner.png)](http://heroku.com/)
+
+### Check logs
 ----
 ```ruby
 # Fetch last 1500 lines.
