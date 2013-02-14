@@ -1,5 +1,25 @@
 ##![Git](https://s3.amazonaws.com/gogo-knows/git-banner.png)
 
+### Config
+```ruby
+
+# Set global username & email
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+# Set global editor
+$ git config --global core.editor sublime
+
+# Set global mergetool
+$ git config --global merge.tool kdiff3
+
+# Check config list
+$ git config --list
+
+# Check individual config
+$ git config user.name
+
+```
 ### Feature branch workflow
 ```ruby
     
