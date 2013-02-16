@@ -56,15 +56,4 @@ $ git diff HEAD app/models/quiz_user.rb
 
 # Commit the changes made to the single file.
 $ git commit -m "Add :entries_for_quizzes to quiz_user" app/models/quiz_user.rb
-
-# Merge the feature branch
-$ git merge feature_1
-
-# Delete the feature branch
-$ git branch -d feature_1
-
-# EXTRA
-# In case of switching the workstation push the feature branch to the remote repository.
-# Use the -u option to setup upstream references required for git pull.
-$ git push -u origin feature_1
 ```
