@@ -18,3 +18,10 @@ end
 # Execute below command to run the task
 $ rake db:rdb
 ```
+
+### Generate rdoc documentation.
+```ruby
+
+# Generate the documentaion for app folder.
+$ rdoc app --op doc/app --all
+```
