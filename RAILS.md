@@ -25,3 +25,19 @@ $ rake db:rdb
 # Generate the documentaion for app folder.
 $ rdoc app --op doc/app --all
 ```
+
+### Production commands
+```ruby
+
+# db:seed
+$ rake db:seed RAILS_ENV="production"
+
+# db:migrate
+$ rake db:migrate RAILS_ENV="production"
+
+# start server in production mode
+$ rails server -e production
+
+```
+
+
