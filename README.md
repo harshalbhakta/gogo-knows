@@ -10,5 +10,5 @@ Crime master gogo knows everything I need to remember.
 
 * [Rails](https://github.com/harshalbhakta/gogo-knows/blob/master/RAILS.md#readme)
 * [Git](https://github.com/harshalbhakta/gogo-knows/blob/master/GIT.md#readme)
-* [Heroku](https://github.com/harshalbhakta/gogo-knows/blob/master/LINUX.md#readme)
-* [Linux](https://github.com/harshalbhakta/gogo-knows/blob/master/HEROKU.md#readme)
+* [Heroku](https://github.com/harshalbhakta/gogo-knows/blob/master/HEROKU.md#readme)
+* [Linux](https://github.com/harshalbhakta/gogo-knows/blob/master/LINUX.md#readme)
