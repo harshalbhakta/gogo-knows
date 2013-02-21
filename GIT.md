@@ -57,3 +57,25 @@ $ git diff HEAD app/models/quiz_user.rb
 # Commit the changes made to the single file.
 $ git commit -m "Add :entries_for_quizzes to quiz_user" app/models/quiz_user.rb
 ```
+
+#### Remove multiple deleted files.
+````ruby
+
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    app/views/admins/offer_codes/_form.html.erb
+#	deleted:    app/views/admins/offer_codes/edit.html.erb
+#	deleted:    app/views/admins/offer_codes/new.html.erb
+#	deleted:    app/views/admins/offer_codes/show.html.erb
+#	deleted:    app/views/admins/offers/_form.html.erb
+
+$ git add -u
+
+-u, --update
+
+Only match <filepattern> against already tracked files in the index rather than the working tree. That means that it will never stage new files, but that it will stage modified new contents of tracked files and that it will remove files from the index if the corresponding files in the working tree have been removed.
+If no <filepattern> is given, default to "."; in other words, update all tracked files in the current directory and its subdirectories.
+
+````
