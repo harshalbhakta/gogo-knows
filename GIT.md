@@ -78,4 +78,6 @@ $ git add -u
 Only match <filepattern> against already tracked files in the index rather than the working tree. That means that it will never stage new files, but that it will stage modified new contents of tracked files and that it will remove files from the index if the corresponding files in the working tree have been removed.
 If no <filepattern> is given, default to "."; in other words, update all tracked files in the current directory and its subdirectories.
 
+Note: This adds the modified tracked files to the staging area as well so run this command only if you had just removed the files and want to stage them immediately. 
+
 ````
