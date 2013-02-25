@@ -108,3 +108,12 @@ $ git commit --amend --no-edit
 # Changes to both files will now be in the same commit "2 Files changed in this commit"
 
 ````
+
+#### Git alias for a command
+````ruby
+
+# Creates alias for "git po" -> "git push origin master"
+$ git config --global alias.po "push origin master"
+
+
+````
