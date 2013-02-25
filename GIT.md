@@ -89,7 +89,7 @@ $ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Cre
 
 ````
 
-#### Git amend a single file.
+#### Git amend a single file without opening editor.
 ````ruby
 
 # Consider 2 files have changed. a.txt & readme.MD

@@ -38,6 +38,13 @@ $ rake db:migrate RAILS_ENV="production"
 # start server in production mode
 $ rails server -e production
 
-```
+````
 
+### Allow slug with a dot(.)
+````ruby 
 
+# Use below regular expression in routes.rb
+
+resources :users, :only => [:index, :show, :edit, :update, :destroy], :id => /[\w.]+/
+
+````
