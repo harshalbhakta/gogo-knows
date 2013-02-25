@@ -48,3 +48,19 @@ $ rails server -e production
 resources :users, :only => [:index, :show, :edit, :update, :destroy], :id => /[\w.]+/
 
 ````
+
+### Redirect user to root after sign-up
+````ruby
+
+# app/controllers/users/registrations_controller.rb
+class Users::RegistrationsController < Devise::RegistrationsController
+  protected
+      def after_sign_up_path_for(resource)
+        "http://google.com"
+      end  
+end
+
+# routes.rb
+devise_for :users, :controllers => { :registrations => "users/registrations" }
+
+````
