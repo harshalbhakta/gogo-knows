@@ -115,5 +115,8 @@ $ git commit --amend --no-edit
 # Creates alias for "git po" -> "git push origin master"
 $ git config --global alias.po "push origin master"
 
+# Check if alias was correctly created.
+$ git config --global --get alias.po
+
 
 ````
