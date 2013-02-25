@@ -81,3 +81,30 @@ If no <filepattern> is given, default to "."; in other words, update all tracked
 Note: This adds the modified tracked files to the staging area as well so run this command only if you had just removed the files and want to stage them immediately. 
 
 ````
+
+#### Git pretty log output with refs & branches.
+````ruby
+
+$ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+
+````
+
+#### Git amend a single file.
+````ruby
+
+# Consider 2 files have changed. a.txt & readme.MD
+
+$ git add readme.MD
+
+$ git commit -m "2 Files changed in this commit"
+
+# We forgot to "git add a.txt". We use amend to add it to the previous commit.
+# --no-edit skips opening the editor.
+
+$ git add a.txt
+
+$ git commit --amend --no-edit
+
+# Changes to both files will now be in the same commit "2 Files changed in this commit"
+
+````
