@@ -120,3 +120,17 @@ $ git config --global --get alias.po
 
 
 ````
+
+#### Git apply specific version of stash
+````ruby
+
+# View list of stash available. ( stash@{0} is the latest stash )
+$ git stash list
+
+  stash@{0}: WIP on master: 44278f1 Show nested category on the index page.
+  stash@{1}: WIP on master: 44278f1 Show nested category on the index page.
+
+# Apply specific stash
+$ git stash apply stash@{1}
+
+````
