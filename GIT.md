@@ -134,3 +134,12 @@ $ git stash list
 $ git stash apply stash@{1}
 
 ````
+
+#### Git undo the last commit and make it go forever.
+[Reference link](http://stackoverflow.com/a/6866485)
+````ruby
+
+$ git reset --hard HEAD~1
+
+````
+
