@@ -64,3 +64,19 @@ end
 devise_for :users, :controllers => { :registrations => "users/registrations" }
 
 ````
+
+### Before installing gem 'pg'
+````ruby
+
+$ sudo apt-get install postgresql
+$ sudo apt-get install libpq-dev
+
+````
+
+### Before installing gem 'rmagick'
+````ruby
+
+$ sudo apt-get install imagemagick
+$ sudo apt-get install libmagickwand-dev
+
+````
