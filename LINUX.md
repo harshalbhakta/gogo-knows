@@ -40,7 +40,7 @@ $ sudo update-grub
 $ grep menuentry /boot/grub2/grub.cfg
 
 # Check the position of the kernel you want in the list.
-# Set that as default in /etc/default/grub 
+# Set that as default in /etc/default/grub (position starts from 0)
 
 $ sudo update-grub
 
