@@ -33,3 +33,15 @@ export GREEN_QUIZYY_HOST="green.quizyy.com"
 . ~/.bash_profile
 
 ```
+#### Change default kernel version for Ubuntu grub
+````ruby
+
+$ sudo update-grub
+$ grep menuentry /boot/grub2/grub.cfg
+
+# Check the position of the kernel you want in the list.
+# Set that as default in /etc/default/grub 
+
+$ sudo update-grub
+
+````
