@@ -80,3 +80,13 @@ $ sudo apt-get install imagemagick
 $ sudo apt-get install libmagickwand-dev
 
 ````
+
+#### hstore migration fails
+````ruby
+
+# PG::Error: ERROR:  could not open extension control file 
+# "/usr/share/postgresql/9.1/extension/hstore.control": No such file or directory
+
+$ sudo apt-get install postgresql-contrib
+
+````
