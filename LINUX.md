@@ -52,7 +52,8 @@ $ sudo update-grub
 ````
 
 #### Show grub menu by default
-[Documentation](https://help.ubuntu.com/community/Grub2#Hidden)
+[Documentation 1](https://help.ubuntu.com/community/Grub2#Hidden)
+[Documentation 2](https://help.ubuntu.com/community/Grub2/Submenus)
 ````ruby
 
 Comment out below lines from /etc/default/grub
