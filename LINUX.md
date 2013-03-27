@@ -34,6 +34,7 @@ export GREEN_QUIZYY_HOST="green.quizyy.com"
 
 ```
 #### Change default kernel version for Ubuntu grub
+[https://help.ubuntu.com/community/Grub2/Submenus](https://help.ubuntu.com/community/Grub2/Submenus)
 ````ruby
 
 $ sudo update-grub
@@ -43,6 +44,7 @@ $ grep menuentry /boot/grub/grub.cfg
 $ sudo vim /etc/default/grub
 
 # Set the required entry fetched from grub.cfg as default in /etc/default/grub
+# use > for sub-menu entry
 GRUB_DEFAULT="Advanced options for Ubuntu>Ubuntu, with Linux 3.5.0-25-generic"
 
 $ sudo update-grub
@@ -52,8 +54,7 @@ $ sudo update-grub
 ````
 
 #### Show grub menu by default
-[Documentation 1](https://help.ubuntu.com/community/Grub2#Hidden)
-[Documentation 2](https://help.ubuntu.com/community/Grub2/Submenus)
+[https://help.ubuntu.com/community/Grub2#Hidden](https://help.ubuntu.com/community/Grub2#Hidden)
 ````ruby
 
 Comment out below lines from /etc/default/grub
