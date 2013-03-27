@@ -42,6 +42,23 @@
     o   - Open a new line below and insert.
     O	- Open a new line above and insert.
     C   - Change the rest of the current line.
+    cc  - Change the current line.
+    
+### Scrolling & multi-windowing
+    
+    ^E ^Y  - scroll line up, down
+    ^D ^U  - scroll half a page up, down
+    ^F ^B - scroll page up, down
+    zt or z↵ - set current line at top of window
+    zz or z. - set current line at center of window
+    zb or z- - set current line at bottom of window
+    zh zl    - scroll one character to the right, left
+    zH zL	 - scroll half a screen to the right, left
+    ^Ws 	 - split window in two
+    ^Wn      - create new empty window
+    ^Wo   	 - make current window one on screen
+    ^Wj ^Wk	 - move to window below, above
+    ^Ww ^W^W - move to window below, above (wrap)
     
 ### Visual mode commands
 
@@ -56,11 +73,18 @@
     y 	- Yank the highlighted text. In Windows terms, "copy the selected text to clipboard."
     d 	- Delete the highlighted text. In Windows terms, "cut the selected text to clipboard."
     
-### Search & CommandT
+### Search
 
     :/  - pattern Search forward for the pattern
     :?  - pattern Search backward for the pattern
+    n   - Scan for next search match in the same direction.
+    N    - Scan for next search match but opposite direction.
+
+### CommandT
+
     \t  - CommandT file navigation
+    Ctrl + j - move down in file selection menu
+    Ctrl + k - move up in file selection menu
 
 ### Yank (has most of the options of delete)-- VI's copy commmand
 
@@ -74,9 +98,10 @@
     
     p    - paste below cursor
     P    - paste above cursor
+    J    - Join next line down to the end of the current line
     u    - Undo last change
     U    - Restore line
-    J    - Join next line down to the end of the current line
+    Ctrl + r - redo
 
 ### File Manipulation Commands
 
