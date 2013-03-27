@@ -61,3 +61,14 @@ Comment out below lines from /etc/default/grub
 #GRUB_HIDDEN_TIMEOUT_QUIET=true
 
 ````
+
+#### Check current linux version
+````ruby
+
+$ uname -a
+
+or
+
+$ uname -r
+
+````
