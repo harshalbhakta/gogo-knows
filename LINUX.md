@@ -54,7 +54,7 @@ $ sudo update-grub
 #### Show grub menu by default
 ````ruby
 
-Comment out below lines from /etc/default/grub - https://help.ubuntu.com/community/Grub2#Hidden
+Comment out below lines from /etc/default/grub - [Documentation](https://help.ubuntu.com/community/Grub2#Hidden)
 
 #GRUB_HIDDEN_TIMEOUT=0
 #GRUB_HIDDEN_TIMEOUT_QUIET=true
