@@ -63,6 +63,7 @@
     ^Ww ^W^W - move to window below, above (wrap)
     :split file  - Splits the window horizontally.
     :vsplit file - Splits the window vertically.
+    :5 :split README - show README in a window of 5 lines high.
     
 ### Visual mode commands
 
