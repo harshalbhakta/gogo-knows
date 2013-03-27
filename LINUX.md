@@ -43,7 +43,7 @@ $ grep menuentry /boot/grub/grub.cfg
 $ sudo vim /etc/default/grub
 
 # Set the required entry fetched from grub.cfg as default in /etc/default/grub
-GRUB_DEFAULT="Ubuntu, with Linux 3.5.0-25-generic"
+GRUB_DEFAULT="Advanced options for Ubuntu>Ubuntu, with Linux 3.5.0-25-generic"
 
 $ sudo update-grub
 
