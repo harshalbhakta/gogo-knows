@@ -46,6 +46,8 @@
     
 ### Scrolling & multi-windowing
     
+    ^ = Ctrl
+    
     ^E ^Y  - scroll line up, down
     ^D ^U  - scroll half a page up, down
     ^F ^B - scroll page up, down
@@ -59,6 +61,8 @@
     ^Wo   	 - make current window one on screen
     ^Wj ^Wk	 - move to window below, above
     ^Ww ^W^W - move to window below, above (wrap)
+    :split file  - Splits the window horizontally.
+    :vsplit file - Splits the window vertically.
     
 ### Visual mode commands
 
