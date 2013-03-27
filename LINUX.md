@@ -62,7 +62,7 @@ Comment out below lines from /etc/default/grub
 
 ````
 
-#### Check current linux version
+#### Check currently running kernel version
 ````ruby
 
 $ uname -a
