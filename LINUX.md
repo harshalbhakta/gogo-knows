@@ -37,11 +37,16 @@ export GREEN_QUIZYY_HOST="green.quizyy.com"
 ````ruby
 
 $ sudo update-grub
-$ grep menuentry /boot/grub2/grub.cfg
 
-# Check the position of the kernel you want in the list.
-# Set that as default in /etc/default/grub (position starts from 0)
+$ grep menuentry /boot/grub/grub.cfg
+
+$ sudo vim /etc/default/grub
+
+# Set the required entry fetched from grub.cfg as default in /etc/default/grub
+GRUB_DEFAULT="Ubuntu, with Linux 3.5.0-25-generic"
 
 $ sudo update-grub
+
+# Changes are reflected in the file /boot/grub/grub.cfg
 
 ````
