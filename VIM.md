@@ -36,7 +36,8 @@
 
 ### Text manipulation
 
-    cw  - Change current word to a new word
+    ciw - Change entire word to a new word
+    cw  - Change current word to a new word from current cursor position
     r   - Replace one character at the cursor position
     R   - Begin overstrike or replace mode – use ESC key to exit
     o   - Open a new line below and insert.
@@ -61,9 +62,18 @@
     ^Wo   	 - make current window one on screen
     ^Wj ^Wk	 - move to window below, above
     ^Ww ^W^W - move to window below, above (wrap)
-    :split file  - Splits the window horizontally.
-    :vsplit file - Splits the window vertically.
+    :sp[lit] file  - Splits the window horizontally.
+    :vs[plit] file - Splits the window vertically.
     :5 :split README - show README in a window of 5 lines high.
+
+### Moving windows
+
+    ctrl-w r	rotate all windows
+    ctrl-w x	exchange current window with its neighbour
+    ctrl-w H	move current window to far left
+    ctrl-w J	move current window to bottom
+    ctrl-w K	move current window to top
+    ctrl-w L	move current window to far right
     
 ### Visual mode commands
 
