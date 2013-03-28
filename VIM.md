@@ -100,6 +100,11 @@
     \t  - CommandT file navigation
     Ctrl + j - move down in file selection menu
     Ctrl + k - move up in file selection menu
+    Ctrl + s - Horizontally split file from selection menu
+    Ctrl + v - Vertically split file from selection menu
+    
+    # Put this in ~\.bashrc file to enable Ctrl + S
+    $ stty start undef stop undef
 
 ### Yank (has most of the options of delete)-- VI's copy commmand
 
