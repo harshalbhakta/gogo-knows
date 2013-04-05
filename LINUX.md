@@ -74,3 +74,17 @@ or
 $ uname -r
 
 ````
+
+#### Unicorn zombiee process
+````ruby
+
+# List PID's
+$ lsof /tmp/my_app.socket
+
+# Kill
+$ kill -9 pid
+
+# If above steps don't work, try this.
+$ ps aux | grep unicorn
+
+````
