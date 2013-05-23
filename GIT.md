@@ -1,5 +1,12 @@
 ##![Git](https://s3.amazonaws.com/gogo-knows/git-banner.png)
 
+### Checkout & track a remote branch
+```ruby
+
+$ git checkout --track -b v1.1 origin/v1.1
+
+```
+
 ### Config
 ```ruby
 
