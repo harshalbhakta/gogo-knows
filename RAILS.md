@@ -1,5 +1,20 @@
 ##![Ruby on Rails](https://s3.amazonaws.com/gogo-knows/rails-banner.png)
 
+### Check what is available on current RVM and update if required.
+```ruby
+
+# Check what is known to RVM
+$ rvm list known
+
+
+# If you don't see a specific version in there, ex. ruby 2.0.0-p247
+# Execute below command to update the list
+$ rvm get stable
+
+# You should now see the new version of ruby.
+
+```
+
 ### Rake task to drop, create, migrate & seed db in development mode.
 ```ruby
 
