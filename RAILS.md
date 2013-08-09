@@ -1,5 +1,12 @@
 ##![Ruby on Rails](https://s3.amazonaws.com/gogo-knows/rails-banner.png)
 
+### Create a rails app using a specific version of rails
+```ruby
+
+$ rails _3.2.11_ new AngularRaffler
+
+```
+
 ### Check what is available on current RVM and update if required.
 ```ruby
 
