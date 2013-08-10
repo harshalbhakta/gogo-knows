@@ -496,11 +496,15 @@ puts %Q{name = #{name}}		     # name = Harshal
 	str = "xyz"
 	puts hsh["hello"] # world
 
-
-
-
-
 ```
 
+- Use map function to call another method on all the elements of an arrary.
 
+```ruby
+
+> "hello,world,test".split(",").map(&:length)       # [5,5,4]
+
+> ["Hello","World","Test"].map(&:length)	    # [5,5,4]
+
+```
 
