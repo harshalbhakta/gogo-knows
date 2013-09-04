@@ -112,3 +112,13 @@ $ sudo apt-get install libmagickwand-dev
 $ sudo apt-get install postgresql-contrib
 
 ````
+
+#### Unicorn kill process
+````ruby
+
+# Helpful when code chagnes don't reflect after cap deploy.
+# Old unicorn processes keep serving previous version.
+
+$ ps aux | grep 'unicorn' | awk '{print $2}' | xargs sudo kill -9
+
+````
