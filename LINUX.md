@@ -1,5 +1,13 @@
 ##![Linux](https://s3.amazonaws.com/gogo-knows/Linux.png)
 
+### Remove all .svn folders in a project folder
+```ruby
+
+# Execute this from the project folder
+$ rm -rf `find . -type d -name .svn`
+
+```
+
 ### Tail command
 ```ruby
 
