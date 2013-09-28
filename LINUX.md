@@ -1,5 +1,13 @@
 ##![Linux](https://s3.amazonaws.com/gogo-knows/Linux.png)
 
+### Cron job to trigger daily notificaitons from rails
+```ruby
+
+# Put this line in the crontab -e file.
+00 11 * * * (curl http://example.com/api/v1/TriggerNotification -H 'Authorization: Token token="api_token_goes_here"';echo) >> ~/logs/cron_jobs/notification.log
+
+```
+
 ### Remove all .svn folders in a project folder
 ```ruby
 
