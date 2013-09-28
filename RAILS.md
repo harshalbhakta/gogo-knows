@@ -1,5 +1,13 @@
 ##![Ruby on Rails](https://s3.amazonaws.com/gogo-knows/rails-banner.png)
 
+### Kill Rails Server using PID
+```ruby
+
+$ ps aux | grep rails
+$ kill -9 <pid>
+
+```
+
 ### Create a rails app using a specific version of rails
 ```ruby
 
