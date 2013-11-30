@@ -1,7 +1,5 @@
-
 <img src="https://github.com/images/error/angry_unicorn.png" alt="Drawing" style="width: 75px;"/> NGINX + Unicorn
 ===
-----
 
 Introduction
 ----
@@ -20,6 +18,26 @@ Common Setup
 ----
 <br />
 Most RoR setups use a combination of both traditional web servers and Rack servers to apply the best of both of their capabilities. Nginx is incredibly fast at request redirection through proxy balancing and serving up static content. Unicorn is quite capable of processing HTTP headers and balancing inbound requests to Ruby for processing.
+
+### Request routing
+
+Incoming request are processed by nginx.conf. nginx.conf includes other conf files by below line.
+
+    include /etc/nginx/sites-enabled/*;
+
+sites-enabled folder has symlinks to actual config files that come from the project folder or sites-available.
+
+### Basic commands
+```ruby
+
+$ /etc/init.d/nginx -h
+
+Usage: nginx {start|stop|restart|reload|force-reload|status|configtest}
+
+# service can be used to avoid /etc/init.d
+$ sudo service nginx start
+
+```
 
 Sources
 ----
