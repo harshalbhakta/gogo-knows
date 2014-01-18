@@ -68,6 +68,9 @@ $ rake db:migrate RAILS_ENV="production"
 # start server in production mode
 $ rails server -e production
 
+# start console in production mode
+$ bundle exec rails c production
+
 ````
 
 ### Allow slug with a dot(.)
